@@ -59,7 +59,8 @@ yaxis: {
     }
   }
 }
-}
+
+import { getCSS, tickConfig } from "./common.js"
 
 
 // código omitido
