@@ -1,4 +1,4 @@
-import { getCSS } from "./common.js";
+import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuarios() {
   const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
@@ -42,7 +42,7 @@ const layout = {
          family: getCSS('--font'),
          size: 30
      }
-  }
+  },
 xaxis: {
   title: {
     text: 'nome das redes sociais',
@@ -60,8 +60,8 @@ yaxis: {
   }
 }
 
-import { getCSS, tickConfig } from "./common.js"
 
+}
 
 // código omitido
 quantidadeUsuarios()
